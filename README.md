@@ -20,9 +20,11 @@ I was able to create some extra NextJS components to spice up the project. If yo
 The Navbar has usable links to Home, Players, and Teams. Feel free to use these to navigate between the pages.
 
 NBA Player JSON route - http://localhost:3000/api/players
+
 NBA Team JSON route - http://localhost:3000/api/teams
 
 NBA Player Page - http://localhost:3000/players
+
 NBA Team Page - http://localhost:3000/teams
 
 I also went ahead and created a TeamCard component in additon to the Playercard component, which I used to display the teams in a nicer way on the teams page.
