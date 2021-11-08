@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Welcome to my NBA Roster app! Before I start my ReadMe, I'd like to kindly let the devs at the NBA know that my NY Knicks are winning the NBA championship in the next 4 years. Anyways....
 
 ## Getting Started
 
@@ -12,23 +12,18 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## API Routes and general roadmap of the project
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+I was able to create some extra NextJS components to spice up the project. If you look inside the components directory - you will see a Navbar, Footer, & Layout component. The layout component allows for the navbar and footer to be included on every page easily. Please note, that these components were some last minute additions for fun and they are definitely not perfect.
 
-## Learn More
+The Navbar has usable links to Home, Players, and Teams. Feel free to use these to navigate between the pages.
 
-To learn more about Next.js, take a look at the following resources:
+NBA Player JSON route - http://localhost:3000/api/players
+NBA Team JSON route - http://localhost:3000/api/teams
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+NBA Player Page - http://localhost:3000/players
+NBA Team Page - http://localhost:3000/teams
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+I also went ahead and created a TeamCard component in additon to the Playercard component, which I used to display the teams in a nicer way on the teams page.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
