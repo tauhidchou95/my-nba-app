@@ -1,4 +1,4 @@
-## Welcome to my NBA Roster app! Before I start my ReadMe, I'd like to kindly let the devs at the NBA know that my NY Knicks are winning the NBA championship in the next 4 years. Anyways....
+## Welcome to my NBA Roster app!..
 
 ## Getting Started
 
